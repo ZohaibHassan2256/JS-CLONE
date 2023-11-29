@@ -1,0 +1,66 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background: url(https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&w=3700);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+#overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.7);
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    text-transform: capitalize;
+}
+#title2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}
+#col{
+    width: 1000px;
+    color: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+#col div{
+    width: 270px;
+    text-align: center;
+}
+input{
+  
+    height: 50px;
+    width: 150px;
+    background-color: rgb(255, 255, 255,0.9);
+    border-color: transparent;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 30px;
+}
